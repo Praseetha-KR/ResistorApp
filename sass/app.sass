@@ -1,0 +1,23 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />*/
+
+@import "compass/reset"
+
+@mixin band
+	height: 40px
+	width: 20px
+	display: inline-block
+#band1
+	@include band
+	background-color: red
+#band2
+	@include band
+	background-color: green
+#band3
+	@include band
+	background-color: yellow
+#band4
+	@include band
+	background-color: blue
