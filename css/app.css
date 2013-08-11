@@ -67,7 +67,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 12, ../sass/app.sass */
+/* line 1, ../sass/_layout.sass */
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/_typography.sass */
+h1 {
+  font-size: 26px;
+  padding: 30px 0 20px 0;
+}
+
+/* line 14, ../sass/app.sass */
 #band1 {
   height: 40px;
   width: 20px;
@@ -75,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: red;
 }
 
-/* line 15, ../sass/app.sass */
+/* line 17, ../sass/app.sass */
 #band2 {
   height: 40px;
   width: 20px;
@@ -83,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: green;
 }
 
-/* line 18, ../sass/app.sass */
+/* line 20, ../sass/app.sass */
 #band3 {
   height: 40px;
   width: 20px;
@@ -91,7 +103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-color: yellow;
 }
 
-/* line 21, ../sass/app.sass */
+/* line 23, ../sass/app.sass */
 #band4 {
   height: 40px;
   width: 20px;
