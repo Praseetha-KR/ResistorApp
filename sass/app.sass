@@ -9,17 +9,26 @@
 
 @mixin band
 	height: 40px
-	width: 20px
+	width: 80px
 	display: inline-block
-#band1
+#band1 a, #band2 a, #band3 a, #band4 a
 	@include band
+	&:hover
+		ul.color-selector
+			margin-left: auto
+#band1 a
 	background-color: red
-#band2
-	@include band
+#band2 a
 	background-color: green
-#band3
-	@include band
+#band3 a
 	background-color: yellow
-#band4
-	@include band
+#band4 a
 	background-color: blue
+
+.color-selector
+	margin-left: -10000px
+	& > li
+		display: block
+		height: 20px
+		width: 80px
+

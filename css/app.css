@@ -80,33 +80,43 @@ h1 {
 }
 
 /* line 14, ../sass/app.sass */
-#band1 {
+#band1 a, #band2 a, #band3 a, #band4 a {
   height: 40px;
-  width: 20px;
+  width: 80px;
   display: inline-block;
+}
+/* line 17, ../sass/app.sass */
+#band1 a:hover ul.color-selector, #band2 a:hover ul.color-selector, #band3 a:hover ul.color-selector, #band4 a:hover ul.color-selector {
+  margin-left: auto;
+}
+
+/* line 19, ../sass/app.sass */
+#band1 a {
   background-color: red;
 }
 
-/* line 17, ../sass/app.sass */
-#band2 {
-  height: 40px;
-  width: 20px;
-  display: inline-block;
+/* line 21, ../sass/app.sass */
+#band2 a {
   background-color: green;
 }
 
-/* line 20, ../sass/app.sass */
-#band3 {
-  height: 40px;
-  width: 20px;
-  display: inline-block;
+/* line 23, ../sass/app.sass */
+#band3 a {
   background-color: yellow;
 }
 
-/* line 23, ../sass/app.sass */
-#band4 {
-  height: 40px;
-  width: 20px;
-  display: inline-block;
+/* line 25, ../sass/app.sass */
+#band4 a {
   background-color: blue;
+}
+
+/* line 28, ../sass/app.sass */
+.color-selector {
+  margin-left: -10000px;
+}
+/* line 30, ../sass/app.sass */
+.color-selector > li {
+  display: block;
+  height: 20px;
+  width: 80px;
 }
